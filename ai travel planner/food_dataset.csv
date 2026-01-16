@@ -1,0 +1,91 @@
+Dish,Category,Type,City,Min_Price,Max_Price
+Set Dosa,Snack,Vegetarian,Hassan,100,130
+Vegetable Kurma,Curry,Vegetarian,Dharwad,120,160
+Idli Vada,Snack,Vegetarian,Bagalkot,80,100
+Chicken Ghee Roast,Curry,Non-Vegetarian,Belagavi,350,400
+Egg Curry,Curry,Non-Vegetarian,Shivamogga,200,250
+Mutton Sukka,Curry,Non-Vegetarian,Raichur,350,400
+Obbattu,Dessert,Vegetarian,Chikkamagaluru,120,160
+Sweet Pongal,Dessert,Vegetarian,Bengaluru,100,150
+Mandakki Usli,Snack,Vegetarian,Raichur,80,120
+Kesari Bath,Dessert,Vegetarian,Kalaburagi,90,120
+Idli Vada,Snack,Vegetarian,Bidar,80,100
+Set Dosa,Snack,Vegetarian,Dharwad,100,130
+Holige,Dessert,Vegetarian,Bidar,120,180
+Chicken Ghee Roast,Curry,Non-Vegetarian,Chikkamagaluru,350,400
+Akki Roti,Snack,Vegetarian,Mysuru,100,130
+Ragi Mudde,Curry,Vegetarian,Belagavi,80,120
+Ragi Mudde,Curry,Vegetarian,Kolar,80,120
+Kharabath,Rice,Vegetarian,Ballari,90,120
+Mangalore Buns,Snack,Vegetarian,Vijayapura,80,110
+Chitranna,Rice,Vegetarian,Davangere,100,150
+Akki Roti,Snack,Vegetarian,Kalaburagi,100,130
+Ragi Mudde,Curry,Vegetarian,Kalaburagi,80,120
+Korri Rotti,Snack,Non-Vegetarian,Kolar,250,300
+Chicken Biryani,Rice,Non-Vegetarian,Kalaburagi,300,350
+Puliyogare,Rice,Vegetarian,Shivamogga,100,150
+Ragi Mudde,Curry,Vegetarian,Hassan,80,120
+Noolputtu,Rice,Vegetarian,Ballari,100,130
+Noolputtu,Rice,Vegetarian,Belagavi,100,130
+Mandakki Usli,Snack,Vegetarian,Shivamogga,80,120
+Prawn Curry,Curry,Non-Vegetarian,Mangaluru,350,400
+Kane Fry,Snack,Non-Vegetarian,Bengaluru,350,400
+Chitranna,Rice,Vegetarian,Dharwad,100,150
+Kane Fry,Snack,Non-Vegetarian,Davangere,350,400
+Mysore Pak,Dessert,Vegetarian,Udupi,100,150
+Chitranna,Rice,Vegetarian,Mysuru,100,150
+Pathrode,Snack,Vegetarian,Karwar,100,130
+Chicken Biryani,Rice,Non-Vegetarian,Hassan,300,350
+Mutton Sukka,Curry,Non-Vegetarian,Hassan,350,400
+Obbattu,Dessert,Vegetarian,Karwar,120,160
+Egg Curry,Curry,Non-Vegetarian,Kalaburagi,200,250
+Vegetable Kurma,Curry,Vegetarian,Belagavi,120,160
+Mangalore Buns,Snack,Vegetarian,Ballari,80,110
+Chicken Kabab,Snack,Non-Vegetarian,Belagavi,200,250
+Holige,Dessert,Vegetarian,Tumakuru,120,180
+Mutton Biryani,Rice,Non-Vegetarian,Karwar,350,400
+Chicken Biryani,Rice,Non-Vegetarian,Bengaluru,300,350
+Prawn Curry,Curry,Non-Vegetarian,Kalaburagi,350,400
+Noolputtu,Rice,Vegetarian,Mangaluru,100,130
+Ragi Mudde,Curry,Vegetarian,Bengaluru,80,120
+Chicken Biryani,Rice,Non-Vegetarian,Bidar,300,350
+Pathrode,Snack,Vegetarian,Kolar,100,130
+Puliyogare,Rice,Vegetarian,Bidar,100,150
+Korri Rotti,Snack,Non-Vegetarian,Hassan,250,300
+Fish Curry,Curry,Non-Vegetarian,Karwar,300,350
+Korri Rotti,Snack,Non-Vegetarian,Bengaluru,250,300
+Masala Dosa,Snack,Vegetarian,Tumakuru,100,150
+Chicken Ghee Roast,Curry,Non-Vegetarian,Mangaluru,350,400
+Bisi Bele Bath,Rice,Vegetarian,Kolar,150,200
+Mandakki Usli,Snack,Vegetarian,Chikkamagaluru,80,120
+Kane Fry,Snack,Non-Vegetarian,Kolar,350,400
+Mutton Sukka,Curry,Non-Vegetarian,Bagalkot,350,400
+Kesari Bath,Dessert,Vegetarian,Chikkamagaluru,90,120
+Chicken Kabab,Snack,Non-Vegetarian,Bagalkot,200,250
+Mangalore Buns,Snack,Vegetarian,Bidar,80,110
+Neer Dosa,Snack,Vegetarian,Ballari,120,150
+Fish Curry,Curry,Non-Vegetarian,Tumakuru,300,350
+Noolputtu,Rice,Vegetarian,Davangere,100,130
+Egg Curry,Curry,Non-Vegetarian,Kolar,200,250
+Ragi Mudde,Curry,Vegetarian,Chikkamagaluru,80,120
+Puliyogare,Rice,Vegetarian,Chikkamagaluru,100,150
+Vegetable Kurma,Curry,Vegetarian,Vijayapura,120,160
+Egg Curry,Curry,Non-Vegetarian,Chikkamagaluru,200,250
+Korri Rotti,Snack,Non-Vegetarian,Udupi,250,300
+Set Dosa,Snack,Vegetarian,Bidar,100,130
+Holige,Dessert,Vegetarian,Vijayapura,120,180
+Sweet Pongal,Dessert,Vegetarian,Karwar,100,150
+Idli Vada,Snack,Vegetarian,Mangaluru,80,100
+Bisi Bele Bath,Rice,Vegetarian,Bengaluru,150,200
+Masala Dosa,Snack,Vegetarian,Hassan,100,150
+Kesari Bath,Dessert,Vegetarian,Davangere,90,120
+Kharabath,Rice,Vegetarian,Hassan,90,120
+Chitranna,Rice,Vegetarian,Tumakuru,100,150
+Fish Curry,Curry,Non-Vegetarian,Hubballi,300,350
+Puliyogare,Rice,Vegetarian,Ballari,100,150
+Fish Curry,Curry,Non-Vegetarian,Kolar,300,350
+Ragi Mudde,Curry,Vegetarian,Shivamogga,80,120
+Mandakki Usli,Snack,Vegetarian,Udupi,80,120
+Neer Dosa,Snack,Vegetarian,Davangere,120,150
+Vegetable Kurma,Curry,Vegetarian,Bengaluru,120,160
+Ragi Mudde,Curry,Vegetarian,Hampi,80,120

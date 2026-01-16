@@ -1,0 +1,86 @@
+/* -------- APP BACKGROUND -------- */
+.stApp {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* -------- HEADINGS -------- */
+h1 {
+    color: #f9d342;
+    font-weight: 800;
+}
+
+h2, h3 {
+    color: #ffd966;
+    font-weight: 700;
+}
+
+/* -------- CARD SECTIONS -------- */
+div[data-testid="stVerticalBlock"] {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 18px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* -------- INPUT FIELDS -------- */
+input, textarea, select {
+    border-radius: 10px !important;
+    padding: 8px !important;
+}
+
+/* -------- BUTTONS -------- */
+button[kind="primary"] {
+    background-color: #f9d342 !important;
+    color: #000000 !important;
+    border-radius: 12px !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #ffe699 !important;
+    color: #000000 !important;
+}
+
+/* -------- RADIO & CHECKBOX -------- */
+div[role="radiogroup"] label,
+div[role="checkbox"] label {
+    font-weight: 500;
+}
+
+/* -------- TABLE STYLING -------- */
+thead tr th {
+    background-color: #f9d342 !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+tbody tr td {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+}
+
+/* -------- INFO / SUCCESS BOX -------- */
+div[data-testid="stInfo"] {
+    border-left: 6px solid #f9d342;
+    background-color: rgba(249, 211, 66, 0.15);
+}
+
+div[data-testid="stSuccess"] {
+    border-left: 6px solid #2ecc71;
+    background-color: rgba(46, 204, 113, 0.15);
+}
+
+/* -------- CHAT / TEXT OUTPUT -------- */
+.stMarkdown {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    visibility: hidden;
+}
