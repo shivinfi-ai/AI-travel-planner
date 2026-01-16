@@ -28,7 +28,7 @@ with st.form("travel_form"):
     st.subheader("📌 Enter Trip Details")
 
     start = st.text_input("Starting City *", placeholder="e.g., Bangalore")
-    destination = st.text_input("Destination City *", placeholder="e.g., Goa")
+    destination = st.text_input("Destination City *", placeholder="e.g., Hampi")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -99,3 +99,4 @@ if submit:
 # ---------- FOOTER ----------
 st.markdown("---")
 st.caption("Built with ❤️ using Hugging Face & Streamlit")
+
