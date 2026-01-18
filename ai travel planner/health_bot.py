@@ -1,34 +1,64 @@
-import requests
-import os
-
-HF_API_KEY = os.getenv("HF_API_KEY")
-
-API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
-
-headers = {
-    "Authorization": f"Bearer {HF_API_KEY}"
-}
-
 def health_chat(user_question, city):
-    prompt = f"""
-    You are a travel health assistant.
-
-    The user is traveling to {city}.
-    The user asks: {user_question}
-
-    Give safe, student-friendly medical and food hygiene advice.
+    """
+    Offline health & travel safety assistant
+    No API required
     """
 
-    response = requests.post(API_URL, headers=headers, json={"inputs": prompt})
+    q = user_question.lower()
 
-    try:
-        result = response.json()
+    # -------- FOOD SAFETY --------
+    if "street food" in q or "food" in q:
+        return (
+            f"🍽 Food Safety Tips in {city}:\n"
+            "- Choose busy stalls with high turnover\n"
+            "- Eat freshly cooked and hot food\n"
+            "- Avoid raw salads and uncovered items\n"
+            "- Prefer bottled or filtered water\n"
+            "- Wash hands before eating"
+        )
 
-        # Handle both HuggingFace response formats
-        if isinstance(result, list):
-            return result[0]["generated_text"]
-        else:
-            return result["generated_text"]
+    # -------- WATER SAFETY --------
+    if "water" in q or "drink" in q:
+        return (
+            "💧 Water Safety Tips:\n"
+            "- Avoid tap water\n"
+            "- Use sealed bottled water\n"
+            "- Avoid ice cubes in roadside drinks"
+        )
 
-    except:
-        return "⚠️ Health service is temporarily unavailable. Please try again."
+    # -------- WEATHER & HEAT --------
+    if "heat" in q or "summer" in q or "hot" in q:
+        return (
+            "☀️ Heat Protection Tips:\n"
+            "- Stay hydrated\n"
+            "- Wear light cotton clothes\n"
+            "- Avoid direct sun between 12–3 PM\n"
+            "- Use sunscreen"
+        )
+
+    # -------- COLD / RAIN --------
+    if "rain" in q or "monsoon" in q or "cold" in q:
+        return (
+            "🌧 Weather Safety Tips:\n"
+            "- Carry umbrella or raincoat\n"
+            "- Avoid street food in heavy rain\n"
+            "- Wear dry footwear to prevent infections"
+        )
+
+    # -------- MEDICAL EMERGENCY --------
+    if "emergency" in q or "hospital" in q or "doctor" in q:
+        return (
+            "🏥 Emergency Tips:\n"
+            "- Keep emergency contact numbers saved\n"
+            "- Locate nearest hospital via Google Maps\n"
+            "- Carry basic medicines"
+        )
+
+    # -------- GENERAL TRAVEL HEALTH --------
+    return (
+        "🩺 General Travel Health Advice:\n"
+        "- Carry a basic first-aid kit\n"
+        "- Get enough sleep\n"
+        "- Avoid over-exertion\n"
+        "- Inform someone about your travel plan"
+    )
